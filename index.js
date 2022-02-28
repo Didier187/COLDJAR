@@ -2,9 +2,7 @@
  let mouse_positions =[]
  let scroll_positions = []
  const body = document.getElementById("body")
- window.addEventListener("online",function(){
-     console.log("loaded")
- })
+
 window.addEventListener("click",function(e){
     mouse_positions.push({x:e.clientX, y:e.clientY})
 })
