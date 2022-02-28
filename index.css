@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    text-align: center; 
+    background-color:orange; 
+    border:none;
+    padding:1em;
+    margin:10px;
+    color:white;
+    font-weight:bold;
+    border-radius: 6px;
+    cursor: pointer
+}
+.dot{
+    width: 6px;
+    height: 6px;
+    background: orange;
+    position: absolute;
+    border-radius: 50%
+}
+.dot:first-child{
+    background: green
+}
+.dot:last-child{
+    background: red
+}
