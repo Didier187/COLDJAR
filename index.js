@@ -13,7 +13,6 @@ window.addEventListener("mousemove", function (e) {
 document.getElementById("vis-clicks").addEventListener("click", () => {
   if (mouseClickLocations.length) {
     plot(mouseClickLocations);
-    body.innerHTML = htmlElements.join("");
   }
 });
 
