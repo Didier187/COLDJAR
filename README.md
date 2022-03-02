@@ -13,7 +13,8 @@ open with live server
 ---
 
 * Click anywhere on the page and the click see **where you clicked button!**
-  - The first click position will be represented by a green dot and the click position will be represented by a red dot
+
+    - The first click position will be represented by a green dot and the click position will be represented by a red dot
 
 * Click on **see where scrolled!** button
 
